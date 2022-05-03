@@ -23,10 +23,6 @@ for numb in range(625):
     print(type(a_T_clean))
     numb = 0 + numb
 
-    # command: docker run -it -v "/Users/rclam/projects/aspect/cookbooks/LG_outputs:/home/pv-user/data" kitware/paraview:pv-v5.7.1-osmesa-py3
-    # command: cd
-    # command: cd data/
-    # command: /opt/paraview/bin/pvpyton ./LG_readVTU_visc.py
 
     directory = '/Volumes/RC_LaCie/projects/Liu_Gurnis_simple/2_outputs_clean/config{0:04d}'.format(numb)
     print(directory)
